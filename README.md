@@ -14,8 +14,8 @@ This is the frontend application for the Todo List App, built with Next.js and s
    Clone the repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/yourusername/todo-frontend.git
-   cd todo-frontend
+   git clone https://github.com/minniexp/nooro-todo-frontend.git   
+   cd nooro-todo-frontend
    ```
 
 2. **Install Dependencies**
@@ -30,15 +30,18 @@ This is the frontend application for the Todo List App, built with Next.js and s
 
 3. **Environment Variables**
 
-   Create a `.env.local` file in the root directory and add the following environment variables:
+   If desired, specify the api url as noted below.
+
+   Create a `.env` file in the root directory and add the following environment variables:
 
    ```plaintext
    NEXT_PUBLIC_API_URL=http://localhost:3001
    ```
-
    Adjust the `NEXT_PUBLIC_API_URL` to point to your backend server URL if it's different.
 
-4. **Run the Development Server**
+   As default, the path is defined as `http://localhost:3001`.
+
+5. **Run the Development Server**
 
    Start the development server to run the application locally:
 
@@ -50,7 +53,7 @@ This is the frontend application for the Todo List App, built with Next.js and s
 
    The application will be available at `http://localhost:3000`.
 
-5. **Build for Production**
+6. **Build for Production**
 
    To build the application for production, execute:
 
@@ -60,7 +63,7 @@ This is the frontend application for the Todo List App, built with Next.js and s
    npm run build
    ```
 
-6. **Start the Production Server**
+7. **Start the Production Server**
 
    After building, you can start the production server with:
 
