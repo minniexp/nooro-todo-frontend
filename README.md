@@ -53,25 +53,9 @@ This is the frontend application for the Todo List App, built with Next.js and s
 
    The application will be available at `http://localhost:3000`.
 
-6. **Build for Production**
+   When testing in the development server, please make sure the backend server is started.
 
-   To build the application for production, execute:
-
-   Using npm:
-
-   ```bash
-   npm run build
-   ```
-
-7. **Start the Production Server**
-
-   After building, you can start the production server with:
-
-   Using npm:
-
-   ```bash
-   npm start
-   ```
+   Backend Repository is located at the following: https://github.com/minniexp/nooro-todo-backend
 
 ## Project Structure
 
